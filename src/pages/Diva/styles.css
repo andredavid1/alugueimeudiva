@@ -1,0 +1,106 @@
+#diva {
+  background-color: var(--green-color);
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px solid var(--blue-color);
+}
+
+#diva .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+}
+
+@media (min-width: 576px) {
+  #diva .logo {
+    justify-content: flex-start;
+    padding-left: 20px;
+  } 
+}
+
+#diva .logo img {
+  width: 20%;
+  max-width: 135px;
+  height: auto;
+  opacity: 40%;
+}
+
+#diva .conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+#diva .conteudo h2 {
+  font-family: ArchivoBlack;
+  text-align: center;
+  color: var(--white-color);
+  max-width: 350px;
+}
+
+#diva .conteudo h3 {
+  text-align: center;
+  color: var(--white-color);
+  max-width: 400px;
+  margin-top: 40px;
+}
+
+#diva .conteudo h3 strong {
+  color: var(--yellow-color);
+  font-weight: bold;
+}
+
+#diva .footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25%;
+}
+
+#diva .footer .logoCanal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#diva .footer .logoCanal a {
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+
+#diva .footer .logoCanal img {
+  max-width: 120px;
+  margin-right: 10px;
+}
+
+#diva .footer .logoCanal a:hover>img {
+  max-width: 125px;
+}
+
+#diva .footer .decoracao {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  #diva .footer .decoracao {
+    display: flex;
+    justify-content: flex-end;
+    position: relative
+  } 
+}
+
+#diva .footer .decoracao img {
+  opacity: 0.2;
+  width: 100px;
+  position: absolute;
+  right: 5px;
+  bottom: -25px;
+}
