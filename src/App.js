@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Logo from './assets/img/logo.png';
+import Triangulos from './assets/img/triangulos.png';
+
+import './styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="container">
+      <section id="home">
+        <div className="logo">
+          <img src={Logo} alt="logomarca"/>
+        </div>
+        <div className="conteudo">
+          <h1>AULA ONLINE GRATUITA</h1>
+        </div>
+        <div className="footer">
+          <div className="inscricao">
+            <button className="btn">CLIQUE AQUI E INSCREVA-SE</button>
+          </div>
+          <div className="triangulos">
+            <img src={Triangulos} alt="decoração" />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
