@@ -5,6 +5,7 @@ import Diva from './pages/Diva';
 import Conteudo from './pages/Conteudo';
 
 import './styles.css';
+import Contato from './pages/Contato';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Diva />
       <Conteudo />
+      <Contato />
     </div>
   );
 }

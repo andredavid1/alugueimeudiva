@@ -1,0 +1,141 @@
+#contato {
+  background-color: var(--green-color);
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px solid var(--blue-color);
+  display: flex;
+}
+
+#contato .melissa {
+  display: none;  
+}
+
+@media (min-width: 576px) {
+  #contato .melissa {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+  }
+  #contato .melissa img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#contato .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#contato .formContato {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 43%;
+}
+
+#contato .formContato .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 23%;
+}
+
+#contato .formContato .title span {
+  font-family: ArchivoBlack;
+  font-size: 28px;
+  color: var(--yellow-color);
+  border-radius: 10px;
+}
+
+#contato .formContato .formulario {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5px;
+  border: 2px solid var(--blue-color);
+  border-radius: 10px;
+  background-color: var(--blue-color);
+  height: 77%;
+}
+
+#contato .formContato .formulario form {
+  width: 100%;
+}
+
+#contato .formContato .formulario label {
+  display: block;
+  font-size: 16px;
+  color: var(--yellow-color);
+  width: 90%;
+  padding-left: 7%;
+  margin:0;
+}
+
+#contato .formContato .formulario input {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5px;
+}
+
+#contato .formContato .formulario button {
+  display: block;
+  color: var(--blue-light-color);
+  background-color: var(--yellow-color);
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+#contato .midias {
+  width: 100%;
+  height: 27%;
+  padding: 15px 10px;
+}
+
+#contato .midias label {
+  display: block;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--yellow-color);
+}
+
+#contato .midias span {
+  display: block;
+  color: var(--white-color);
+  margin-bottom: 3px;
+}
+
+#contato .canal {
+  width: 100%;
+  height: 30%;
+}
+
+#contato .canal .logoCanal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#contato .canal .logoCanal a {
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+
+#contato .canal .logoCanal img {
+  max-width: 120px;
+  margin-right: 10px;
+}
+
+#contato .canal .logoCanal a:hover>img {
+  max-width: 125px;
+}
