@@ -98,9 +98,8 @@
 }
 
 #diva .footer .decoracao img {
-  opacity: 0.2;
   width: 100px;
   position: absolute;
-  right: 5px;
-  bottom: -25px;
+  right: -7px;
+  bottom: -85px;
 }

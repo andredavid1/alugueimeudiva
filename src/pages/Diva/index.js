@@ -3,7 +3,7 @@ import React from 'react';
 import LogoImage from '../../assets/img/logo.png';
 import DivaImage from '../../assets/img/diva.png';
 import YouTubeImage from '../../assets/img/youtube.png';
-import TrianguloImage from '../../assets/img/triangulo-branco.png';
+import TrianguloImage from '../../assets/img/triangulo-invertido.png';
 
 import './styles.css';
 
@@ -19,7 +19,7 @@ function Diva() {
       </div>
       <div className="footer">
         <div className="logoCanal">
-          <a href="/">
+          <a target="_blank" href="https://www.youtube.com/channel/UC9AiOKqFcPbqJPB_YfMVilQ">
             <img className="diva" src={DivaImage} alt="aluguei meu divã" />
             <img className="youtube" src={YouTubeImage} alt="canal do youtube" />
           </a>          
