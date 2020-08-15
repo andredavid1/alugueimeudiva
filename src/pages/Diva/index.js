@@ -19,7 +19,7 @@ function Diva() {
       </div>
       <div className="footer">
         <div className="logoCanal">
-          <a target="_blank" href="https://www.youtube.com/channel/UC9AiOKqFcPbqJPB_YfMVilQ">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC9AiOKqFcPbqJPB_YfMVilQ">
             <img className="diva" src={DivaImage} alt="aluguei meu divã" />
             <img className="youtube" src={YouTubeImage} alt="canal do youtube" />
           </a>          
