@@ -1,10 +1,8 @@
 import React from 'react';
 
-import LogoImage from '../../assets/img/logo.png';
 import MelissaImage from '../../assets/img/melissa.png';
 import DivaImage from '../../assets/img/diva.png';
 import YouTubeImage from '../../assets/img/youtube.png';
-import TrianguloImage from '../../assets/img/triangulo-invertido.png';
 
 import './styles.css';
 
