@@ -16,7 +16,7 @@ function Home() {
       </div>
       <div className="footer">
         <div className="inscricao">
-          <button className="btn">CLIQUE AQUI E INSCREVA-SE</button>
+          <a className="btn" href="#contato">CLIQUE AQUI E INSCREVA-SE</a>
         </div>
         <div className="triangulos">
           <img src={Triangulos} alt="decoração" />
